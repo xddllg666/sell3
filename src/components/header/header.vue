@@ -221,7 +221,7 @@ export default {
       padding: 0 8px;
       height: 24px;
       line-height: 27px;
-      vertical-align: top;
+      // vertical-align: top;
       border-radius: 14px;
       background: rgba(0, 0, 0, 0.2);
       text-align: center;

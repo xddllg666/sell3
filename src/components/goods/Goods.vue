@@ -109,7 +109,7 @@ export default {
   methods: {
     setNewsApi: function() {
       api.JH_news("/posts", "type=top&key=123456").then(res => {
-        this.goods = res.goods;
+        this.goods = res.goods;///
         this.$nextTick(() => {
           // 计算dom的时候,一定要异步之后渲染这个组件
           this._initScroll();

@@ -6,8 +6,8 @@ import router from './router'
 import Mock from './mock/sellMock.js' // 刚刚手写的mock.js文件
 import axios from 'axios' // axios http请求库
 import {store} from './store/store'
-axios.defaults.baseURL = '/api'
 Vue.prototype.$http = axios
+axios.defaults.baseURL = '/api'
 require('./mock/sellMock.js')
 
 Vue.config.productionTip = false

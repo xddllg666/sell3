@@ -1,6 +1,9 @@
-<template>
+<template><div>
+
         <div class="">我是登陆界面</div>
         <div class="class">这是一个class</div>
+
+</div>
 </template>
 
 <script type="text/ecmascript-6">

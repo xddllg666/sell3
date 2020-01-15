@@ -7,12 +7,12 @@ const code = 200 // 返回的状态码
 const produceNewsData = req => {
   
     console.log(req) // 请求体，用于获取参数
-    var appData = require('../../data.json');
-    var seller = appData.seller;
-    var goods = appData.goods;
-    var ratings = appData.ratings;
+    let appData = require('../../data.json');
+    let seller = appData.seller;
+    let goods = appData.goods;
+    let ratings = appData.ratings;
     
-    // 返回状态码和文章数据posts
+    // 返回状态码和数据posts
     return {
       code,
       seller:seller,
